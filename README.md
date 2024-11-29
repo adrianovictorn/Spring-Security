@@ -1,18 +1,15 @@
-
-Aqui está um exemplo de README breve e objetivo para o seu projeto de cadastro de clientes com Spring Security:
-
-Cadastro de Clientes com Spring Security
+## Cadastro de Clientes com Spring Security
 Este é um projeto de exemplo para um sistema de cadastro de clientes, com funcionalidades de autenticação e autorização implementadas usando Spring Security.
 
-🛠️ Tecnologias Utilizadas
-Java 17: Linguagem principal.
+##🛠️ Tecnologias Utilizadas
+Java 21: Linguagem principal.
 Spring Boot: Framework para construção da aplicação.
 Spring Security: Implementação de autenticação e autorização.
 Spring Data JPA: Para interação com o banco de dados.
 Banco de Dados H2: Banco de dados em memória para testes.
 Maven: Gerenciador de dependências.
-Thymeleaf (opcional): Motor de templates para renderização de páginas.
-📋 Funcionalidades
+
+## 📋 Funcionalidades
 Cadastro de Clientes:
 Nome, e-mail, telefone e outros dados básicos.
 Autenticação e Autorização:
@@ -22,7 +19,8 @@ Operações CRUD:
 Criar, listar, editar e excluir clientes.
 Validação de Dados:
 Regras de negócio para evitar dados inconsistentes.
-🚀 Como Executar
+
+##🚀 Como Executar
 Clone o repositório:
 bash
 Copiar código
@@ -38,7 +36,8 @@ mvn spring-boot:run
 Acesse a aplicação:
 Front-end (se configurado): http://localhost:8080
 Teste as rotas protegidas via Postman ou browser.
-🗂 Estrutura do Projeto
+
+## 🗂 Estrutura do Projeto
 src/main/java:
 Controllers: Endpoints da aplicação.
 Services: Lógica de negócios.
@@ -48,7 +47,8 @@ Models: Entidades do sistema.
 src/main/resources:
 application.properties: Configurações do banco de dados e porta.
 templates/: Páginas HTML renderizadas (se aplicável).
-🔐 Rotas Protegidas
+
+## 🔐 Rotas Protegidas
 Acesso público:
 /login: Página de login.
 /register: Cadastro de novos usuários (opcional).
